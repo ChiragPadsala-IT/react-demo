@@ -6,9 +6,9 @@ const Home = () => {
     return (
         <>
             <Common
-                name='Grow your business with'
+                name='Learn React with'
                 imgsrc={web}
-                visit='/service'
+                visit='https://reactjs.org/'
                 btnName='Get Started'
             ></Common>
         </>

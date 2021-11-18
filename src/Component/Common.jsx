@@ -1,12 +1,10 @@
 import React from 'react';
 import '../css/home.css';
-import { NavLink } from 'react-router-dom';
-// import '../image';
 
 const Common = (props) => {
     return (
         <section id='header' className='d-flex align-items-center'>
-            <div className='container-fluid d-flex'>
+            <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-10 mx-auto'>
                         <div className='row'>
@@ -20,7 +18,7 @@ const Common = (props) => {
                                     we are the telented developer team for website
                                 </h2>
                                 <div className='mt-3'>
-                                    <NavLink to={props.visit} className='btn-get-started'>{props.btnName}</NavLink>
+                                    <a href={props.visit} className='btn-get-started'>{props.btnName}</a>
                                 </div>
                             </div>
 
