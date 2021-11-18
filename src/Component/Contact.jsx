@@ -65,7 +65,7 @@ const Contact = () => {
                                     onChange={inputEvent}></textarea>
                             </div>
                             <div className='col-12'>
-                                <button type='submit' class="btn btn-outline-primary">Subim</button>
+                                <button type='submit' class="btn btn-outline-primary">Subit</button>
                             </div>
                         </form>
                     </div>
